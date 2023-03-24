@@ -1,147 +1,132 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <!-- Design by foolishdeveloper.com -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
-
-    body {
-      font-family: sans-serif;
-      color: white;
-      margin: 0;
-    }
-
-    .popup .content {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -150%) scale(0);
-      width: 350px;
-      height: 430px;
-      z-index: 2;
-      text-align: center;
-      padding: 10px;
-      border-radius: 5px;
-      background: #dfdfdf;
-      z-index: 1;
-    }
-
-    .popup .close-btn {
-      position: absolute;
-      right: 20px;
-      top: 20px;
-      width: 30px;
-      height: 30px;
-      color: white;
-      font-size: 30px;
-      border-radius: 50%;
-      padding: 2px 5px 7px 5px;
-      background: #237be6;
-    }
-
-    .popup.active .content {
-      transition: all 300ms ease-in-out;
-      transform: translate(-50%, -50%) scale(1);
-    }
-
-    h1 {
-      text-align: center;
-      font-size: 14px;
-      font-weight: 100px;
-      padding-top: 20px;
-      padding-bottom: 10px;
-      color: rgb(91, 91, 92);
-    }
-
-    a {
-      font-weight: 200;
-      color: rgb(19, 50, 225);
-    }
-
-    .input-field .validate {
-      padding: 20px;
-      font-size: 16px;
-      border-radius: 5px;
-      border: none;
-      margin-bottom: 15px;
-      color: #000000;
-      background: #ffffff;
-      border: 2px solid rgb(214, 214, 214);
-      width: 270px;
-      outline: none;
-    }
-
-    .first-button {
-      color: rgb(3, 48, 146);
-      font-size: 25px;
-      font-weight: 500;
-      padding: 15px 50px;
-      border-radius: 5px;
-      border: none;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background: #dadadb;
-      transition: box-shadow .35s ease !important;
-      outline: none;
-    }
-
-    .first-button:active {
-      background-color: rgb(2, 42, 112);
-      color: #fff;
-      border: none;
-    }
-
-    .second-button {
-      color: white;
-      font-size: 18px;
-      font-weight: 500;
-      margin-top: 20px;
-      padding: 15px 40px;
-      border-radius: 5px;
-      border: none;
-      background: #05438f;
-      transition: box-shadow .35s ease !important;
-      outline: none;
-    }
-
-    .second-button:active {
-      background: linear-gradient(145deg, #222222, #292929);
-      border: none;
-      outline: none;
-    }
-
-    p {
-      color: #141414;
-      padding: 20px;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel='stylesheet' href='styles.css'>
 </head>
-
 <body>
-  <div class="popup" id="popup-1">
-    <div class="content">
-      <div class="close-btn" onclick="togglePopup()">
-        ×</div>
-
-      <h1>Request a Call</h1>
-      <div class="input-field"><input placeholder="Phone No." class="validate"></div>
-      <button class="second-button">Submit</button>
-      <p>If you have any query then live your no.</p>
-
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="container-fluid d-flex">
+    <div class="card1 rounded-3 ">
+        <div class="top p-3 d-flex justify-content-between"></div>
+        <div id="carouselExampleIndicators" class="carousel slide p-3 " data-bs-ride="carousel">
+            <div class="carousel-indicators"> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active"> <img src="img/banner.jpg" class="d-block w-100 h-100" alt="..."> </div>
+                <div class="carousel-item"> <img src="img/banner-1.jpg" class="d-block w-100" alt="..."> </div>
+                <div class="carousel-item"> <img src="img/banner-2.jpg" class="d-block w-100" alt="..."> </div>
+            </div> <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span> </button> <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span> </button>
+        </div>
+      
+          <div class="card2 w-100">
+            <div class="row">
+            <div class="col-md-6">
+              <h5>Hostel Name</h5>
+              <h6>Vacant seats</h6> 
+              <div>
+                <span class="fa fa-star star-active"></span>
+                <span class="fa fa-star star-active"></span>
+                <span class="fa fa-star star-active"></span>
+                <span class="fa fa-star star-active"></span>
+                <span class="fa fa-star star-active"></span>
+              </div>     
+            </div>
+            <div class="col-md-6">
+              <div class="button mt-4"> <button>Book Now</button>
+              </div>
+           </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+      </div>
+      <div class="col-md-4">
+        <div class="container-fluid d-flex">
+          <div class="card1 rounded-3 ">
+              <div class="top p-3 d-flex justify-content-between"></div>
+              <div id="carouselExampleIndicators" class="carousel slide p-3 " data-bs-ride="carousel">
+                  <div class="carousel-indicators"> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> </div>
+                  <div class="carousel-inner">
+                      <div class="carousel-item active"> <img src="img/banner.jpg" class="d-block w-100 h-100" alt="..."> </div>
+                      <div class="carousel-item"> <img src="img/banner-1.jpg" class="d-block w-100" alt="..."> </div>
+                      <div class="carousel-item"> <img src="img/banner-2.jpg" class="d-block w-100" alt="..."> </div>
+                  </div> <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span> </button> <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span> </button>
+              </div>
+            
+                <div class="card2 w-100">
+                  <div class="row">
+                  <div class="col-md-6">
+                    <h5>Hostel Name</h5>
+                    <p>Vacant seats</p> 
+                    <div>
+                      <span class="fa fa-star star-active"></span>
+                      <span class="fa fa-star star-active"></span>
+                      <span class="fa fa-star star-active"></span>
+                      <span class="fa fa-star star-active"></span>
+                      <span class="fa fa-star star-active"></span>
+                    </div>     
+                  </div>
+                  <div class="col-md-6">
+                    <div class="button mt-4"> <button>Book Now</button>
+                    </div>
+                 </div>
+                  </div>
+              </div>
+              
+          </div>
+      </div>
+      </div>
+      <div class="col-md-4">
+        <div class="container-fluid d-flex">
+          <div class="card1 rounded-3 ">
+              <div class="top p-3 d-flex justify-content-between"></div>
+              <div id="carouselExampleIndicators" class="carousel slide p-3 " data-bs-ride="carousel">
+                  <div class="carousel-indicators"> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> </div>
+                  <div class="carousel-inner">
+                      <div class="carousel-item active"> <img src="img/banner.jpg" class="d-block w-100 h-100" alt="..."> </div>
+                      <div class="carousel-item"> <img src="img/banner-1.jpg" class="d-block w-100" alt="..."> </div>
+                      <div class="carousel-item"> <img src="img/banner-2.jpg" class="d-block w-100" alt="..."> </div>
+                  </div> <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span> </button> <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span> </button>
+              </div>
+            
+                <div class="card2 w-100">
+                  <div class="row">
+                  <div class="col-md-6">
+                    <h5>Hostel Name</h5>
+                    <p>Vacant seats</p> 
+                    <div>
+                      <span class="fa fa-star star-active"></span>
+                      <span class="fa fa-star star-active"></span>
+                      <span class="fa fa-star star-active"></span>
+                      <span class="fa fa-star star-active"></span>
+                      <span class="fa fa-star star-active"></span>
+                    </div>     
+                  </div>
+                  <div class="col-md-6">
+                    <div class="button mt-4"> <button>Book Now</button>
+                    </div>
+                 </div>
+                  </div>
+              </div>
+              
+          </div>
+      </div>
+      </div>
     </div>
   </div>
-  <button onclick="togglePopup()" class="first-button">Sign In</button>
-  <script>
-    function togglePopup() {
-      document.getElementById("popup-1")
-        .classList.toggle("active");
-    }
-  </script>
+
+  
+
+
 
 </body>
-
 </html>

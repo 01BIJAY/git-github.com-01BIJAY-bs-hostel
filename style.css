@@ -318,48 +318,84 @@ a{
         
 
 /* Latest Produtcs */
-
-.latest-products {
-	margin-top: 50px;
-}
-.product-item{
+.card1 {
+    margin:50px 0px;
     width: 300px;
     height: 350px;
+    background-color: #a7a3d2;
+    font-family: 'Rubik', sans-serif
 }
 
-.product-item .down-content {
-	padding: 30px;
-	position: relative;
+.card2 {
+    height: auto;
+    background-color: #f4f5fc;
+    margin-top: 20px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 3px;
+    padding: 20px
 }
 
-.product-item img {
-	width: 100%;
-	overflow: hidden;
-}
-.product-item .down-content h4 {
-	font-size: 17px;
-	color: black; 
+.carousel {
+    margin-top: -20px !important
 }
 
+.card2 h5 {
+    font-weight: 700
+}
 
-.product-item .down-content ul li {
-	display: inline-block;
+.card2 p {
+    font-size: 13px;
+    margin-top: -10px;
+    color: #8b8b90
+}
+
+.button {
+    position: relative
+}
+
+.button button {
+    height: 30px;
+    width: 80px;
+    background-color: #f4f4f4;
+    border: none;
+    outline: 0;
+    border-radius: 9px;
+    font-size: 10px;
+    color: #87141a;
+    cursor: pointer;
+    transition: all 0.5s
     
 }
 
-.product-item .down-content ul li i {
-	color: #fbb03b;
-	font-size: 14px;
-    
+.button button:hover {
+    background-color: #fbb03b;
+    font-weight: bold;
+    letter-spacing: 1px
 }
 
-.product-item .down-content span {
-	position: absolute;
-	right: 30px;
-	bottom: 30px;
-	font-size: 13px;
-	color: #fbb03b;
-	font-weight: 500;
+.button p {
+    position: absolute;
+    right: 10px;
+    top: 24px;
+    font-size: 13px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s
+}
+
+.button:hover p {
+    font-weight: bold !important;
+    letter-spacing: 1px !important
+}
+.star-active {
+	color: #FBC02D;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.star-active:hover {
+	color: #F9A825;
+	cursor: pointer;
 }
 
 .explore{
