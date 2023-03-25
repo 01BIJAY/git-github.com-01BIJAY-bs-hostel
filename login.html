@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      .login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login-form-1{
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+    text-align: center;
+    color: #333;
+}
+.login-form-1 p{
+    text-align: center;
+    color: #333;
+}
+.line {
+  width: 200px;
+
+  border: 1px solid #C4C4C4;
+  display:inline-block;
+}
+.login-form-2{
+    padding: 5%;
+    background: #4377a9;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+    text-align: center;
+    color: #fff;
+}
+.login-container form{
+    padding: 10%;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.login-form-1 .btnSubmit{
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062cc;
+}
+.login-form-2 .btnSubmit{
+    font-weight: 600;
+    color: #0062cc;
+    background-color: #fff;
+}
+
+
+.login-form-1 .ForgetPwd{
+    color: #0062cc;
+    font-weight: 600;
+    text-decoration: none;
+}
+    </style>
+</head>
+<body>
+    <div class="container login-container">
+            <div class="row">
+                <div class="col-md-9 login-form-1">
+                    <h3>Login to your account</h3>
+                    <p>Login using social network</p>
+                  <div style="text-align:center">
+                    <button type="button" class="btn btn-primary">
+                      <i class="fa fa-facebook-f"></i>
+                    </button>
+
+                    <button type="button" class="btn btn-primary">
+                      <i class="fa fa-twitter"></i>
+                    </button>
+
+                    <button type="button" class="btn btn-primary">
+                      <i class="fa fa-linkedin"></i>
+                    </button><br><br>
+                    </div>
+                    <div style="text-align: center;">
+                    <div class="line"></div>
+                      <div style="display:inline-block;">OR</div>
+                    <div class="line"></div></div>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Email *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Your Password *" value="" />
+                        </div>
+                      <div class="row mb-4">
+                        <div class="col d-flex justify-content-center">
+                        <!-- Checkbox -->
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                          <label class="form-check-label" for="form2Example31"> Remember me </label>
+                        </div>
+                        </div>
+
+                        <div class="col">
+                        <!-- Simple link -->
+                          <a href="#!">Forgot password?</a>
+                        </div>
+                      </div>
+                        <div class="form-group" style="text-align: center;">
+                            <input type="submit" class="btnSubmit" value="Login" />
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-3 login-form-2">
+                    <h3>New Here?</h3>
+                    <p>Sign up and discover your choice hostel</p>
+                    <div class="form-group" style="text-align: center;">
+                            <input type="submit" class="btnSubmit" value="Sign Up" />
+                        </div>
+                        <p>Already have an account?   <a href="#">Login</a></p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
