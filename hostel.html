@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel='stylesheet' href='styles.css'>
+ 
+  <style>
+    .card-img-overlay {
+  background-color: rgba(#000, 0.4);
+}
+  </style>
+
+</head>
+<body>
+  <div class="container">
+
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 1110px;">
+        sort by
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Sort by A to Z</a></li>
+        <li><a class="dropdown-item" href="#">Sort by A to A</a></li>
+        <li><a class="dropdown-item" href="#">Sort by Date</a></li>
+      </ul>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="container-fluid d-flex">
+    <div class="card1 rounded-3 ">
+        <div class="top p-3 d-flex justify-content-between"></div>
+        <div id="carouselExampleIndicators" class="carousel slide p-3 " data-bs-ride="carousel">
+            <div class="carousel-indicators"> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active"> <img src="img/banner.jpg" class="d-block w-100 h-100" alt="..."> </div>
+                <div class="carousel-item"> <img src="img/banner-1.jpg" class="d-block w-100" alt="..."> </div>
+                <div class="carousel-item"> <img src="img/banner-2.jpg" class="d-block w-100" alt="..."> </div>
+            </div> <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span> </button> <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span> </button>
+        </div>
+      
+          <div class="card2 w-100">
+            <div class="row">
+            <div class="col-md-6">
+              <h5>Hostel Name</h5>
+              <h6>Vacant seats</h6> 
+              <div>
+                <span class="fa fa-star star-active"></span>
+                <span class="fa fa-star star-active"></span>
+                <span class="fa fa-star star-active"></span>
+                <span class="fa fa-star star-active"></span>
+                <span class="fa fa-star star-active"></span>
+              </div>     
+            </div>
+            <div class="col-md-6">
+              <div class="button mt-4"> <button>Book Now</button>
+              </div>
+           </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+      </div>
+      <div class="col-md-4">
+        <div class="container-fluid d-flex">
+          <div class="card1 rounded-3 ">
+              <div class="top p-3 d-flex justify-content-between"></div>
+              <div id="carouselExampleIndicators" class="carousel slide p-3 " data-bs-ride="carousel">
+                  <div class="carousel-indicators"> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> </div>
+                  <div class="carousel-inner">
+                      <div class="carousel-item active"> <img src="img/banner.jpg" class="d-block w-100 h-100" alt="..."> </div>
+                      <div class="carousel-item"> <img src="img/banner-1.jpg" class="d-block w-100" alt="..."> </div>
+                      <div class="carousel-item"> <img src="img/banner-2.jpg" class="d-block w-100" alt="..."> </div>
+                  </div> <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span> </button> <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span> </button>
+              </div>
+            
+                <div class="card2 w-100">
+                  <div class="row">
+                  <div class="col-md-6">
+                    <h5>Hostel Name</h5>
+                    <p>Vacant seats</p> 
+                    <div>
+                      <span class="fa fa-star star-active"></span>
+                      <span class="fa fa-star star-active"></span>
+                      <span class="fa fa-star star-active"></span>
+                      <span class="fa fa-star star-active"></span>
+                      <span class="fa fa-star star-active"></span>
+                    </div>     
+                  </div>
+                  <div class="col-md-6">
+                    <div class="button mt-4"> <button>Book Now</button>
+                    </div>
+                 </div>
+                  </div>
+              </div>
+              
+          </div>
+      </div>
+      </div>
+      <div class="col-md-4">
+        <div class="container-fluid d-flex">
+          <div class="card1 rounded-3 ">
+              <div class="top p-3 d-flex justify-content-between"></div>
+              <div id="carouselExampleIndicators" class="carousel slide p-3 " data-bs-ride="carousel">
+                  <div class="carousel-indicators"> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> </div>
+                  <div class="carousel-inner">
+                      <div class="carousel-item active"> <img src="img/banner.jpg" class="d-block w-100 h-100" alt="..."> </div>
+                      <div class="carousel-item"> <img src="img/banner-1.jpg" class="d-block w-100" alt="..."> </div>
+                      <div class="carousel-item"> <img src="img/banner-2.jpg" class="d-block w-100" alt="..."> </div>
+                  </div> <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span> </button> <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span> </button>
+              </div>
+            
+                <div class="card2 w-100">
+                  <div class="row">
+                  <div class="col-md-6">
+                    <h5>Hostel Name</h5>
+                    <p>Vacant seats</p> 
+                    <div>
+                      <span class="fa fa-star star-active"></span>
+                      <span class="fa fa-star star-active"></span>
+                      <span class="fa fa-star star-active"></span>
+                      <span class="fa fa-star star-active"></span>
+                      <span class="fa fa-star star-active"></span>
+                    </div>     
+                  </div>
+                  <div class="col-md-6">
+                    <div class="button mt-4"> <button>Book Now</button>
+                    </div>
+                 </div>
+                  </div>
+              </div>
+              
+          </div>
+      </div>
+      </div>
+    </div><br><br>
+  
+
+
+  
+    <div class="card">
+        <div class="card-body">
+          This is some text within a card body.This is some text within a card body.This is some text within a card body.This is some text within a card body.This is some text within a card body.This is some text within a card body.
+        </div>
+    </div>
+  
+  
+    <div class="row">
+        <div class="col-md-4">
+          <div class="container-fluid d-flex">
+      <div class="card1 rounded-3 ">
+          <div class="top p-3 d-flex justify-content-between"></div>
+          <div id="carouselExampleIndicators" class="carousel slide p-3 " data-bs-ride="carousel">
+              <div class="carousel-indicators"> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> </div>
+              <div class="carousel-inner">
+                  <div class="carousel-item active"> <img src="img/banner.jpg" class="d-block w-100 h-100" alt="..."> </div>
+                  <div class="carousel-item"> <img src="img/banner-1.jpg" class="d-block w-100" alt="..."> </div>
+                  <div class="carousel-item"> <img src="img/banner-2.jpg" class="d-block w-100" alt="..."> </div>
+              </div> <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span> </button> <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span> </button>
+          </div>
+        
+            <div class="card2 w-100">
+              <div class="row">
+              <div class="col-md-6">
+                <h5>Hostel Name</h5>
+                <h6>Vacant seats</h6> 
+                <div>
+                  <span class="fa fa-star star-active"></span>
+                  <span class="fa fa-star star-active"></span>
+                  <span class="fa fa-star star-active"></span>
+                  <span class="fa fa-star star-active"></span>
+                  <span class="fa fa-star star-active"></span>
+                </div>     
+              </div>
+              <div class="col-md-6">
+                <div class="button mt-4"> <button>Book Now</button>
+                </div>
+             </div>
+              </div>
+          </div>
+          
+      </div>
+  </div>
+        </div>
+        <div class="col-md-4">
+          <div class="container-fluid d-flex">
+            <div class="card1 rounded-3 ">
+                <div class="top p-3 d-flex justify-content-between"></div>
+                <div id="carouselExampleIndicators" class="carousel slide p-3 " data-bs-ride="carousel">
+                    <div class="carousel-indicators"> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active"> <img src="img/banner.jpg" class="d-block w-100 h-100" alt="..."> </div>
+                        <div class="carousel-item"> <img src="img/banner-1.jpg" class="d-block w-100" alt="..."> </div>
+                        <div class="carousel-item"> <img src="img/banner-2.jpg" class="d-block w-100" alt="..."> </div>
+                    </div> <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span> </button> <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span> </button>
+                </div>
+              
+                  <div class="card2 w-100">
+                    <div class="row">
+                    <div class="col-md-6">
+                      <h5>Hostel Name</h5>
+                      <p>Vacant seats</p> 
+                      <div>
+                        <span class="fa fa-star star-active"></span>
+                        <span class="fa fa-star star-active"></span>
+                        <span class="fa fa-star star-active"></span>
+                        <span class="fa fa-star star-active"></span>
+                        <span class="fa fa-star star-active"></span>
+                      </div>     
+                    </div>
+                    <div class="col-md-6">
+                      <div class="button mt-4"> <button>Book Now</button>
+                      </div>
+                   </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+        <div class="col-md-4">
+          <div class="container-fluid d-flex">
+            <div class="card1 rounded-3 ">
+                <div class="top p-3 d-flex justify-content-between"></div>
+                <div id="carouselExampleIndicators" class="carousel slide p-3 " data-bs-ride="carousel">
+                    <div class="carousel-indicators"> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active"> <img src="img/banner.jpg" class="d-block w-100 h-100" alt="..."> </div>
+                        <div class="carousel-item"> <img src="img/banner-1.jpg" class="d-block w-100" alt="..."> </div>
+                        <div class="carousel-item"> <img src="img/banner-2.jpg" class="d-block w-100" alt="..."> </div>
+                    </div> <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span> </button> <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span> </button>
+                </div>
+              
+                  <div class="card2 w-100">
+                    <div class="row">
+                    <div class="col-md-6">
+                      <h5>Hostel Name</h5>
+                      <p>Vacant seats</p> 
+                      <div>
+                        <span class="fa fa-star star-active"></span>
+                        <span class="fa fa-star star-active"></span>
+                        <span class="fa fa-star star-active"></span>
+                        <span class="fa fa-star star-active"></span>
+                        <span class="fa fa-star star-active"></span>
+                      </div>     
+                    </div>
+                    <div class="col-md-6">
+                      <div class="button mt-4"> <button>Book Now</button>
+                      </div>
+                   </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="container-fluid d-flex">
+      <div class="card1 rounded-3 ">
+          <div class="top p-3 d-flex justify-content-between"></div>
+          <div id="carouselExampleIndicators" class="carousel slide p-3 " data-bs-ride="carousel">
+              <div class="carousel-indicators"> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> </div>
+              <div class="carousel-inner">
+                  <div class="carousel-item active"> <img src="img/banner.jpg" class="d-block w-100 h-100" alt="..."> </div>
+                  <div class="carousel-item"> <img src="img/banner-1.jpg" class="d-block w-100" alt="..."> </div>
+                  <div class="carousel-item"> <img src="img/banner-2.jpg" class="d-block w-100" alt="..."> </div>
+              </div> <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span> </button> <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span> </button>
+          </div>
+        
+            <div class="card2 w-100">
+              <div class="row">
+              <div class="col-md-6">
+                <h5>Hostel Name</h5>
+                <h6>Vacant seats</h6> 
+                <div>
+                  <span class="fa fa-star star-active"></span>
+                  <span class="fa fa-star star-active"></span>
+                  <span class="fa fa-star star-active"></span>
+                  <span class="fa fa-star star-active"></span>
+                  <span class="fa fa-star star-active"></span>
+                </div>     
+              </div>
+              <div class="col-md-6">
+                <div class="button mt-4"> <button>Book Now</button>
+                </div>
+             </div>
+              </div>
+          </div>
+          
+      </div>
+  </div>
+        </div>
+        <div class="col-md-4">
+          <div class="container-fluid d-flex">
+            <div class="card1 rounded-3 ">
+                <div class="top p-3 d-flex justify-content-between"></div>
+                <div id="carouselExampleIndicators" class="carousel slide p-3 " data-bs-ride="carousel">
+                    <div class="carousel-indicators"> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active"> <img src="img/banner.jpg" class="d-block w-100 h-100" alt="..."> </div>
+                        <div class="carousel-item"> <img src="img/banner-1.jpg" class="d-block w-100" alt="..."> </div>
+                        <div class="carousel-item"> <img src="img/banner-2.jpg" class="d-block w-100" alt="..."> </div>
+                    </div> <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span> </button> <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span> </button>
+                </div>
+              
+                  <div class="card2 w-100">
+                    <div class="row">
+                    <div class="col-md-6">
+                      <h5>Hostel Name</h5>
+                      <p>Vacant seats</p> 
+                      <div>
+                        <span class="fa fa-star star-active"></span>
+                        <span class="fa fa-star star-active"></span>
+                        <span class="fa fa-star star-active"></span>
+                        <span class="fa fa-star star-active"></span>
+                        <span class="fa fa-star star-active"></span>
+                      </div>     
+                    </div>
+                    <div class="col-md-6">
+                      <div class="button mt-4"> <button>Book Now</button>
+                      </div>
+                   </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+        <div class="col-md-4">
+          <div class="container-fluid d-flex">
+            <div class="card1 rounded-3 ">
+                <div class="top p-3 d-flex justify-content-between"></div>
+                <div id="carouselExampleIndicators" class="carousel slide p-3 " data-bs-ride="carousel">
+                    <div class="carousel-indicators"> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active"> <img src="img/banner.jpg" class="d-block w-100 h-100" alt="..."> </div>
+                        <div class="carousel-item"> <img src="img/banner-1.jpg" class="d-block w-100" alt="..."> </div>
+                        <div class="carousel-item"> <img src="img/banner-2.jpg" class="d-block w-100" alt="..."> </div>
+                    </div> <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span> </button> <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span> </button>
+                </div>
+              
+                  <div class="card2 w-100">
+                    <div class="row">
+                    <div class="col-md-6">
+                      <h5>Hostel Name</h5>
+                      <p>Vacant seats</p> 
+                      <div>
+                        <span class="fa fa-star star-active"></span>
+                        <span class="fa fa-star star-active"></span>
+                        <span class="fa fa-star star-active"></span>
+                        <span class="fa fa-star star-active"></span>
+                        <span class="fa fa-star star-active"></span>
+                      </div>     
+                    </div>
+                    <div class="col-md-6">
+                      <div class="button mt-4"> <button>Book Now</button>
+                      </div>
+                   </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+      </div>
+
+</div>
+</body>
+</html>
